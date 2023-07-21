@@ -1,3 +1,4 @@
+# start
 strall = ""
 for i in range(1, 6, 1):
     temp = ""
@@ -6,3 +7,9 @@ for i in range(1, 6, 1):
     else:
         temp = "10"*(i//2)
     print(temp)
+# output
+# 0
+# 10
+# 010
+# 1010
+# 01010
