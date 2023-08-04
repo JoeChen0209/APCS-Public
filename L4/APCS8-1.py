@@ -1,0 +1,7 @@
+print(abs(-5))
+print(max(20, 33, 15))
+print(min(20, 33, 15))
+print(pow(2, 3))
+print(round(5, 7))
+print(sum([1, 2, 3, 4, 5]))
+print(type(2.5))
