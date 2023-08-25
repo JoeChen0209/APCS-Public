@@ -24,6 +24,7 @@ for i in range(N):
         # 如果當前堆疊內沒有元素，請輸出 −1 。
         if len(stack) != 0:
             print(stack[len(stack)-1])
+            # print(stack[-1])
         else:
             print("-1")
     elif k == 3:
@@ -31,4 +32,5 @@ for i in range(N):
         # 如果當前堆疊內沒有元素，請無視該操作
         if len(stack) != 0:
             stack.pop()
+
     # print(stack) #檢查用
