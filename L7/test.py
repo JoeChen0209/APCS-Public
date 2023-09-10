@@ -1,8 +1,6 @@
-def fff(aa=0, salary=0):
-    if salary > 0:
-        pass
-    else:
-        print("else")
-
-
-fff(salary=100)
+def G(a,b) :
+    if b==0:
+        return 1
+    else:  
+        return b*G(a,b-1)
+print(G(3,7))
