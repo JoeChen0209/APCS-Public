@@ -13,4 +13,4 @@ for i in range(0, len(data)):
             data[j] = data[j+1]
             data[j+1] = temp
             count += 1
-print(data)
+    print(data)
