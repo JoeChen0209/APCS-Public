@@ -3,11 +3,14 @@ data = list(map(int, input("").split()))
 count = 0
 # 移除連續重複項
 c = 0
+n = data.pop(0)
 while True:
     if data[c] == data[c+1]:
-        del data[c]
+        # del data[c]
+        data.pop(c)
     elif data[c] != data[c+1]:
         c += 1
+
     if c == len(data)-1:
         break
 
