@@ -11,7 +11,7 @@ dic = {"0 1 0 1": "A",
 for i in sys.stdin:
     n = int(i)
     output = ""
-    for i in range(n):
+    for j in range(n):
         data = sys.stdin.readline().strip()
         output += dic[data]
     print(output)
